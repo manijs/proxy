@@ -4,13 +4,13 @@ const app = express();
 
 const PORT = process.env.PORT || 6789;
 
-app.get("/healthz-new", (req, res) => {
-  res.status(200).send("OK");
-});
+// app.get("/healthz-new", (req, res) => {
+//   res.status(200).send("OK");
+// });
 
-app.get("/fetch", (req, res) => {
-  res.status(200).send("Hello world");
-});
+// app.get("/fetch", (req, res) => {
+//   res.status(200).send("Hello world");
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`);
