@@ -4,7 +4,7 @@ const app = express();
 
 const PORT = process.env.PORT || 6789;
 
-app.get("/healthz", (req, res) => {
+app.get("/healthz-new", (req, res) => {
   res.status(200).send("OK");
 });
 
